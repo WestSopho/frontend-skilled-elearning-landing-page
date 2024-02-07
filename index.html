@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+
+    <link rel="stylesheet" href="css/output.css">
+  </head>
+  <body class="min-h-screen bg-FFFFFF">
+    <div class="overflow-x-hidden">
+      <!-- Header -->
+      <header>
+        <div class="flex justify-between px-5 py-3 xs:px-10 xs:py-5 sm:px-20 sm:py-10 relative z-10 gap-3">
+          <div class="flex flex-col justify-center">
+            <img src="assets/logo-dark.svg" alt="skilled logo dark">
+          </div>
+          <div class="flex flex-col">
+            <button class="bg-13183F font-bold text-FFFFFF rounded-3xl py-3 px-5 hover:bg-666CA3">Get Started</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main -->
+      <main>
+        <!-- First Section -->
+        <article class="flex flex-col justify-between items-center sm:flex-row sm:px-10 gap-5">
+          <!-- Text and Button -->
+          <div class="p-2 space-y-5 max-w-[500px]" id="hero-section">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold">
+              Maximize skill, minimize budget
+            </h2>
+            <p class="text-83869A">
+              Our modern courses across a range of in-demand skills will give you the 
+              knowledge you need to live the life you want.
+            </p>
+            <button class="bg-gradient-to-b from-g1a to-g1b text-FFFFFF font-bold py-3 px-6 rounded-3xl hover:opacity-50">
+              Get Started
+            </button>
+          </div>
+          <!-- Image -->
+          <div class="max-w-[1000px]">
+            <div class="xs:relative" id="image-hero">
+              <img class="sm:hidden" src="assets/image-hero-mobile@2x.webp" alt="image hero mobile">
+              <img class="hidden sm:block md:hidden" src="assets/image-hero-tablet@2x.png" alt="image-hero-tablet">
+              <img class="hidden md:block" src="assets/image-hero-desktop@2x.png" alt="image-hero-desktop">
+            </div>
+          </div>
+        </article>
+
+        <!-- Grid Section -->
+        <article class="bg-gradient-to-b from-FFFFFF to-F0F1FF grid grid-cols-1 gap-7 xs:grid-rows-3 xs:grid-cols-2 md:grid-rows-2 md:grid-cols-3 px-10 pb-10 sm:px-16 sm:pb-16 md:px-24 md:pb-24">
+          <!-- 1st Grid --> 
+          <div class="max-w-[350px]">
+            <p class="bg-gradient-to-b from-g1a to-g1b p-5 rounded-2xl text-2xl text-FFFFFF font-extrabold h-full"> 
+              Check out our most popular courses!
+            </p>
+          </div>
+          <!-- 2nd Grid -->
+          <div class="bg-FFFFFF rounded-2xl p-5 space-y-4 max-w-[350px] flex flex-col justify-between">
+            <div>
+              <img class="-mt-10" src="assets/icon-animation.svg" alt="animation icon">
+            </div>
+            <p class="text-xl text-13183F font-extrabold">Animation</p>
+            <p class="text-83869A font-medium">
+              Learn the latest animation techniques to create stunning motion 
+              design and captivate your audience.
+            </p>
+            <p class="text-lg text-F74780 font-bold">
+              Get Started
+            </p>
+          </div>
+          <!-- 3rd grid -->
+          <div class="bg-FFFFFF rounded-2xl p-5 space-y-4 max-w-[350px] flex flex-col justify-between">
+            <div>
+              <img class="-mt-10" src="assets/icon-design.svg" alt="design icon">
+            </div>
+            <p class="text-xl text-13183F font-extrabold">Design</p>
+            <p class="text-83869A font-medium">
+              Create beautiful, usable interfaces to help shape the future of 
+              how the web looks.
+            </p>
+            <p class="text-lg text-F74780 font-bold">
+              Get Started
+            </p>
+          </div>
+          <!-- 4th grid -->
+          <div class="bg-FFFFFF rounded-2xl p-5 space-y-4 max-w-[350px] flex flex-col justify-between">
+            <div>
+              <img class="-mt-10" src="assets/icon-photography.svg" alt="photography icon">
+            </div>
+            <p class="text-xl text-13183F font-extrabold">Photography</p>
+            <p class="text-83869A font-medium">
+              Explore critical fundamentals like lighting, composition, and focus 
+              to capture exceptional photos.
+            </p>
+            <p class="text-lg text-F74780 font-bold">
+              Get Started
+            </p>
+          </div>  
+          <!-- 5th grid -->
+          <div class="bg-FFFFFF rounded-2xl p-5 space-y-4 max-w-[350px] flex flex-col justify-between">
+            <div>
+              <img class="-mt-10" src="assets/icon-crypto.svg" alt="cypto icon">
+            </div>
+            <p class="text-xl text-13183F font-extrabold">Crypto</p>
+            <p class="text-83869A font-medium">
+              All you need to know to get started investing in crypto. Go from beginner 
+              to advanced with this 54 hour course.
+            </p>
+            <p class="text-lg text-F74780 font-bold">
+              Get Started
+            </p>
+          </div>  
+          <!-- 6th grid -->
+          <div class="bg-FFFFFF rounded-2xl p-5 space-y-4 max-w-[350px] flex flex-col justify-between">
+            <div>
+              <img class="-mt-10" src="assets/icon-business.svg" alt="business image">
+            </div>
+            <p class="text-xl text-13183F font-extrabold">Business</p>
+            <p class="text-83869A font-medium">
+              A step-by-step playbook to help you start, scale, and sustain your business 
+              without outside investment.
+            </p>
+            <p class="text-lg text-F74780 font-bold">
+              Get Started
+            </p>
+          </div>
+        </article>
+
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-13183F">
+        <div class="flex justify-between px-5 py-3 xs:px-10 xs:py-5 sm:px-20 sm:py-10 relative z-10 gap-3">
+          <!-- Image -->
+          <div class="flex flex-col justify-center">
+            <img src="assets/logo-light.svg" alt="logo light">
+          </div>        
+          <!-- Button -->
+          <div class="flex flex-col bg-FFFFFF rounded-3xl">
+            <button class="bg-gradient-to-b from-g2a to-g2b font-bold text-FFFFFF rounded-3xl py-3 px-5 hover:opacity-50">Get Started</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
